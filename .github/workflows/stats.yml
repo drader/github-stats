@@ -11,6 +11,12 @@ on:
 permissions:
   contents: write
 
+# Run the JS wrapper actions (checkout/setup-node) on Node 24 now; their
+# current releases still bundle Node 20, which GitHub deprecates after
+# 2026-06-02. This also future-proofs past that date.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Never let two stats runs race on the same branch
 concurrency:
   group: github-stats
