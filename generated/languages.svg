@@ -1,202 +1,52 @@
-<svg width="360" height="210" xmlns="http://www.w3.org/2000/svg">
-<style>
-svg {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 14px;
-  line-height: 21px;
-}
-
-#background {
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
-  fill: white;
-  stroke: rgb(225, 228, 232);
-  stroke-width: 1px;
-  rx: 6px;
-  ry: 6px;
-}
-
-foreignObject {
-  width: calc(100% - 10px - 32px);
-  height: calc(100% - 10px - 24px);
-}
-
-h2 {
-  margin-top: 0;
-  margin-bottom: 0.75em;
-  line-height: 24px;
-  font-size: 16px;
-  font-weight: 600;
-  color: rgb(36, 41, 46);
-  fill: rgb(36, 41, 46);
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-li {
-  display: inline-flex;
-  font-size: 12px;
-  margin-right: 2ch;
-  align-items: center;
-  flex-wrap: nowrap;
-  transform: translateX(-500%);
-  animation-duration: 2s;
-  animation-name: slideIn;
-  animation-function: ease-in-out;
-  animation-fill-mode: forwards;
-}
-
-@keyframes slideIn {
-  to {
-    transform: translateX(0);
+<svg width="480" height="206" viewBox="0 0 480 206" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages">
+  <style>
+  :root {
+    --bg: #ffffff; --border: #d0d7de; --tile: #f6f8fa;
+    --fg: #1f2328; --muted: #656d76; --accent: #0969da;
   }
-}
-
-div.ellipsis {
-  height: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.octicon {
-  fill: rgb(88, 96, 105);
-  margin-right: 0.5ch;
-  vertical-align: top;
-}
-
-.progress {
-  display: flex;
-  height: 8px;
-  overflow: hidden;
-  background-color: rgb(225, 228, 232);
-  border-radius: 6px;
-  outline: 1px solid transparent;
-  margin-bottom: 1em;
-}
-
-.progress-item {
-  outline: 2px solid rgb(225, 228, 232);
-  border-collapse: collapse;
-}
-
-.lang {
-  font-weight: 600;
-  margin-right: 4px;
-  color: rgb(36, 41, 46);
-}
-
-.percent {
-  color: rgb(88, 96, 105)
-}
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117; --border: #30363d; --tile: #161b22;
+      --fg: #e6edf3; --muted: #7d8590; --accent: #2f81f7;
+    }
+  }
+  .card { fill: var(--bg); stroke: var(--border); }
+  .tile { fill: var(--tile); stroke: var(--border); }
+  .accent { fill: var(--accent); }
+  .title { fill: var(--fg); font: 600 15px -apple-system, Segoe UI, Helvetica, Arial, sans-serif; }
+  .num { fill: var(--fg); font: 700 21px -apple-system, Segoe UI, Helvetica, Arial, sans-serif; }
+  .cap { fill: var(--muted); font: 400 11px -apple-system, Segoe UI, Helvetica, Arial, sans-serif; }
+  .lg { fill: var(--fg); font: 400 12px -apple-system, Segoe UI, Helvetica, Arial, sans-serif; }
 </style>
-<g>
-<rect x="5" y="5" id="background" />
-<g>
-<foreignObject x="21" y="17" width="318" height="176">
-<div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
-
-<h2>Languages Used (By File Size)</h2>
-
-<div>
-<span class="progress">
-<span style="background-color: #555555;width: 90.698%;" class="progress-item"></span><span style="background-color: #6E4C13;width: 5.978%;" class="progress-item"></span><span style="background-color: #3178c6;width: 0.905%;" class="progress-item"></span><span style="background-color: #e34c26;width: 0.829%;" class="progress-item"></span><span style="background-color: #3572A5;width: 0.651%;" class="progress-item"></span><span style="background-color: #b07219;width: 0.420%;" class="progress-item"></span><span style="background-color: #427819;width: 0.349%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.138%;" class="progress-item"></span><span style="background-color: #3D6117;width: 0.030%;" class="progress-item"></span>
-</span>
-</div>
-
-<ul>
-
-
-<li style="animation-delay: 0ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#555555;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">C</span>
-<span class="percent">90.70%</span>
-</li>
-
-
-<li style="animation-delay: 150ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#6E4C13;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">Assembly</span>
-<span class="percent">5.98%</span>
-</li>
-
-
-<li style="animation-delay: 300ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3178c6;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">TypeScript</span>
-<span class="percent">0.91%</span>
-</li>
-
-
-<li style="animation-delay: 450ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#e34c26;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">HTML</span>
-<span class="percent">0.83%</span>
-</li>
-
-
-<li style="animation-delay: 600ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3572A5;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">Python</span>
-<span class="percent">0.65%</span>
-</li>
-
-
-<li style="animation-delay: 750ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#b07219;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">Java</span>
-<span class="percent">0.42%</span>
-</li>
-
-
-<li style="animation-delay: 900ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#427819;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">Makefile</span>
-<span class="percent">0.35%</span>
-</li>
-
-
-<li style="animation-delay: 1050ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#89e051;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">Shell</span>
-<span class="percent">0.14%</span>
-</li>
-
-
-<li style="animation-delay: 1200ms;">
-<svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3D6117;"
-viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
-fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
-<span class="lang">TeX</span>
-<span class="percent">0.03%</span>
-</li>
-
-
-
-</ul>
-
-</div>
-</foreignObject>
-</g>
-</g>
+  <rect class="card" x="1" y="1" width="478" height="204" rx="10"/>
+  <text class="title" x="20" y="32">Most Used Languages</text>
+  <clipPath id="bar"><rect x="20" y="50" width="440" height="14" rx="7"/></clipPath>
+  <g clip-path="url(#bar)"><rect x="20.00" y="50" width="399.07" height="14" fill="#555555"/><rect x="419.07" y="50" width="26.30" height="14" fill="#6E4C13"/><rect x="445.38" y="50" width="3.98" height="14" fill="#3178c6"/><rect x="449.36" y="50" width="3.65" height="14" fill="#e34c26"/><rect x="453.01" y="50" width="2.87" height="14" fill="#3572A5"/><rect x="455.88" y="50" width="1.85" height="14" fill="#b07219"/><rect x="457.72" y="50" width="1.54" height="14" fill="#427819"/><rect x="459.26" y="50" width="0.61" height="14" fill="#89e051"/><rect x="459.87" y="50" width="0.13" height="14" fill="#8b949e"/><rect x="20" y="50" width="440" height="14" rx="7" fill="none" stroke="var(--border)"/></g>
+    <circle cx="26" cy="80" r="6" fill="#555555"/>
+    <text class="lg" x="40" y="84">C</text>
+    <text class="cap" x="226" y="84" text-anchor="end">90.7%</text>
+    <circle cx="26" cy="102" r="6" fill="#6E4C13"/>
+    <text class="lg" x="40" y="106">Assembly</text>
+    <text class="cap" x="226" y="106" text-anchor="end">6.0%</text>
+    <circle cx="26" cy="124" r="6" fill="#3178c6"/>
+    <text class="lg" x="40" y="128">TypeScript</text>
+    <text class="cap" x="226" y="128" text-anchor="end">0.9%</text>
+    <circle cx="26" cy="146" r="6" fill="#e34c26"/>
+    <text class="lg" x="40" y="150">HTML</text>
+    <text class="cap" x="226" y="150" text-anchor="end">0.8%</text>
+    <circle cx="26" cy="168" r="6" fill="#3572A5"/>
+    <text class="lg" x="40" y="172">Python</text>
+    <text class="cap" x="226" y="172" text-anchor="end">0.7%</text>
+    <circle cx="246" cy="80" r="6" fill="#b07219"/>
+    <text class="lg" x="260" y="84">Java</text>
+    <text class="cap" x="446" y="84" text-anchor="end">0.4%</text>
+    <circle cx="246" cy="102" r="6" fill="#427819"/>
+    <text class="lg" x="260" y="106">Makefile</text>
+    <text class="cap" x="446" y="106" text-anchor="end">0.3%</text>
+    <circle cx="246" cy="124" r="6" fill="#89e051"/>
+    <text class="lg" x="260" y="128">Shell</text>
+    <text class="cap" x="446" y="128" text-anchor="end">0.1%</text>
+    <circle cx="246" cy="146" r="6" fill="#8b949e"/>
+    <text class="lg" x="260" y="150">Other</text>
+    <text class="cap" x="446" y="150" text-anchor="end">0.0%</text>
 </svg>
