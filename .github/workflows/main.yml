@@ -2,6 +2,11 @@
 
 name: Generate Stats Images
 
+# Run JS actions (checkout/setup-python/cache) on Node 24 now; their current
+# releases still bundle Node 20 which GitHub deprecates after 2026-06-02.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Controls when the action will run. Triggers the workflow on push events
 on:
   push:
