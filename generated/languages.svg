@@ -21,7 +21,7 @@
   <rect class="card" x="1" y="1" width="478" height="204" rx="10"/>
   <text class="title" x="20" y="32">Most Used Languages</text>
   <clipPath id="bar"><rect x="20" y="50" width="440" height="14" rx="7"/></clipPath>
-  <g clip-path="url(#bar)"><rect x="20.00" y="50" width="399.07" height="14" fill="#555555"/><rect x="419.07" y="50" width="26.30" height="14" fill="#6E4C13"/><rect x="445.38" y="50" width="3.98" height="14" fill="#3178c6"/><rect x="449.36" y="50" width="3.65" height="14" fill="#e34c26"/><rect x="453.01" y="50" width="2.87" height="14" fill="#3572A5"/><rect x="455.88" y="50" width="1.85" height="14" fill="#b07219"/><rect x="457.72" y="50" width="1.54" height="14" fill="#427819"/><rect x="459.26" y="50" width="0.61" height="14" fill="#89e051"/><rect x="459.87" y="50" width="0.13" height="14" fill="#8b949e"/><rect x="20" y="50" width="440" height="14" rx="7" fill="none" stroke="var(--border)"/></g>
+  <g clip-path="url(#bar)"><rect x="20.00" y="50" width="399.12" height="14" fill="#555555"/><rect x="419.12" y="50" width="26.31" height="14" fill="#6E4C13"/><rect x="445.43" y="50" width="4.26" height="14" fill="#3178c6"/><rect x="449.69" y="50" width="3.65" height="14" fill="#e34c26"/><rect x="453.34" y="50" width="2.54" height="14" fill="#3572A5"/><rect x="455.88" y="50" width="1.85" height="14" fill="#b07219"/><rect x="457.72" y="50" width="1.54" height="14" fill="#427819"/><rect x="459.26" y="50" width="0.61" height="14" fill="#89e051"/><rect x="459.87" y="50" width="0.13" height="14" fill="#8b949e"/><rect x="20" y="50" width="440" height="14" rx="7" fill="none" stroke="var(--border)"/></g>
     <circle cx="26" cy="80" r="6" fill="#555555"/>
     <text class="lg" x="40" y="84">C</text>
     <text class="cap" x="226" y="84" text-anchor="end">90.7%</text>
@@ -30,13 +30,13 @@
     <text class="cap" x="226" y="106" text-anchor="end">6.0%</text>
     <circle cx="26" cy="124" r="6" fill="#3178c6"/>
     <text class="lg" x="40" y="128">TypeScript</text>
-    <text class="cap" x="226" y="128" text-anchor="end">0.9%</text>
+    <text class="cap" x="226" y="128" text-anchor="end">1.0%</text>
     <circle cx="26" cy="146" r="6" fill="#e34c26"/>
     <text class="lg" x="40" y="150">HTML</text>
     <text class="cap" x="226" y="150" text-anchor="end">0.8%</text>
     <circle cx="26" cy="168" r="6" fill="#3572A5"/>
     <text class="lg" x="40" y="172">Python</text>
-    <text class="cap" x="226" y="172" text-anchor="end">0.7%</text>
+    <text class="cap" x="226" y="172" text-anchor="end">0.6%</text>
     <circle cx="246" cy="80" r="6" fill="#b07219"/>
     <text class="lg" x="260" y="84">Java</text>
     <text class="cap" x="446" y="84" text-anchor="end">0.4%</text>
